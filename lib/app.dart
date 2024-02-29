@@ -11,8 +11,8 @@ class MainApp extends StatelessWidget {
     return GetMaterialApp(
         themeMode: ThemeMode.system,
         theme: TAppTheme.lightTheme,
-        debugShowCheckedModeBanner: false,
         darkTheme: TAppTheme.darkTheme,
+        debugShowCheckedModeBanner: false,
         home: OnBoardingScreen());
   }
 }

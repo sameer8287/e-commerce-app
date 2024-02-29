@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
-class Sappbar extends StatelessWidget {
+class Sappbar extends StatelessWidget implements PreferredSizeWidget {
   const Sappbar(
       {super.key,
       this.title,
